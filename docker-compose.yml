@@ -9,7 +9,7 @@ services:
     working_dir: /workspace
     volumes:
       - .:/workspace
-      - rust-target:/workspace/target
+#      - rust-target:/workspace/target
 
-volumes:
-  rust-target:
+#volumes:
+# rust-target:
